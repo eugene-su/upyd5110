@@ -109,7 +109,7 @@ class Display:
   def write(self, buf):
     assert type(buf) == type(bytes()) # check that buf is bytes
     self.ce.low() # start transmission
-    self.spi.send(buf)
+    self.spi.send(buf) # send with SPI interface
     self.ce.high() # end transmission
 
 
