@@ -64,7 +64,7 @@ class Display:
     # turn on
     self.turnOn() # power on
     self.command(b'\x21') # extended command mode
-    self.command(b'\xC8') # 3.3V power supply
+    self.command(b'\xC8') # for 3.3V power supply
     self.command(b'\x06') # set temperature correction
     self.command(b'\x13') # system bias
     self.command(b'\x20') # basic command mode
