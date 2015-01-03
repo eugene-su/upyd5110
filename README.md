@@ -1,4 +1,4 @@
 upyd5110
 ========
 
-Driver for micropython board writen in pure python. Does not work
+Micropython board 1.0 library for Nokia 5110 display writen in pure python. Does not work
